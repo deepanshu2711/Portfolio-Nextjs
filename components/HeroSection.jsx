@@ -6,6 +6,10 @@ import { TypeAnimation } from 'react-type-animation';
     
 
 const HeaderSeaction = () => {
+    const scrollToContact = () => {
+        const contactSection = document.getElementById('contact'); // Id of the about section
+        contactSection.scrollIntoView({ behavior: 'smooth' });
+      };
     return (
         <section className="mt-24"> 
         <div className="grid grid-cols-1 sm:grid-cols-12">
@@ -27,11 +31,10 @@ const HeaderSeaction = () => {
             />
             </h1>
             <p className=" text-base sm:text-lg lg:text-xl  text-gray-400 mb-4">
-                lorum ipsum  this is some ramdom text which is nessery
-                lorum ipsum  this is some ramdom text which is nessery
+            I am ready to contribute to innovative projects and make a meaningful impact.
             </p>
             <div className=" flex flex-col sm:flex-row gap-3 mt-3">
-                <button className="p-3 w-full sm:w-fit text-white bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full mr-4 hover:bg-opacity-90 font-bold border border-white">Hire Me</button>
+                <button  onClick={scrollToContact} className="p-3 w-full sm:w-fit text-white bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full mr-4 hover:bg-opacity-90 font-bold border border-white">Hire Me</button>
                 <button className="p-3 w-full font-bold sm:w-fit text-white bg-transparent rounded-full border border-white 
                 text-transparent bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 bg-clip-text hover:text-slate-400 hover:border-slate-400
                 ">Download Resume
