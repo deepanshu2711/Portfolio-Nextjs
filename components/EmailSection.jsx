@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa6";
 const EmailSection = () => {
     const[emailSubmitted,setemailSubmitted] = useState(false);
 
@@ -40,12 +41,15 @@ const EmailSection = () => {
                 <p className="text-gray-300 mb-4 max-w-md">
                     I am currently looking for new opportunities, my inbox is always open. If you have any questions, please feel free to reach out. 
                 </p>
-                <div className="socials flex flex-row gap-2">
+                <div className="socials flex flex-row gap-4">
                     <Link href={"https://github.com/deepanshu2711"}>
                         <FaGithub className="w-10 h-10 text-gray-400 hover:text-white" />
                     </Link>
                     <Link href={"https://www.linkedin.com/in/deepanshu-saini-a6757b213/"} >
                     <FaLinkedin className="w-10 h-10 text-gray-400 hover:text-white" />
+                    </Link>
+                    <Link href={"https://twitter.com/DeepanshuS7943"} >
+                    <FaTwitter className="w-10 h-10 text-gray-400 hover:text-white" />
                     </Link>
                 </div>
             </div>
