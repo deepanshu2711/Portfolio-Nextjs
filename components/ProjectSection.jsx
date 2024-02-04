@@ -10,7 +10,6 @@ const ProjectSection = () => {
                 title={"Real Estate Web App"}
                 description={"a comprehensive real estate platform leveraging the power of MERN stack (MongoDB, Express.js, React, Node.js) alongside Firebase Authentication, Tailwind CSS for sleek styling, and JWT for secure authentication and authorization"}
                 githubLink={"https://github.com/deepanshu2711/Real-EState-MERN-stack"}
-                liveLink={"https://real-estate-h25m.onrender.com/"}
                  />
 
                 <ProjectCard
@@ -18,23 +17,22 @@ const ProjectSection = () => {
                 title={"Genius AI Platform"}
                 description={"AI platform using next.js and clerk for authentication and authorization, Have three different AI models from Conversation , Code Generation and Image Generation "} 
                 githubLink={"https://github.com/deepanshu2711/Ai_saas"}
-                liveLink={"https://ai-saas-three-zeta.vercel.app/"}
                 />
 
                 <ProjectCard
-                imgUrl={"/Imdb.png"}
-                title={"ImDb Clone"}
-                description={"An ImDb clone app using next.js and tailwind css for styling which uses Imdb api to fetch data"} 
-                githubLink={"https://github.com/deepanshu2711/imdb-next"}
-                liveLink={"https://imdb-next-jiio.vercel.app/"}
+                imgUrl={"/xlogo.png"}
+                title={"Twitter(X) Clone"}
+                description={"A Twitter clone using Next.js , MongoDb as database and clerk for authentication and authorization in which user can tweet like other tweets comment on tweets and delete tweets it also have a user profile section where user can edit their profile"} 
+                githubLink={"https://github.com/deepanshu2711/Twitter_Clone"}
                 />
+
+                
 
                 <ProjectCard
                 imgUrl={"/Blog.png"}
                 title={"Mern Blog"}
                 description={"Blog web application based on MERN (MongoDB,Express.js,React.js,Node.js) stack with Authentication jwt-cookies and redux for state management "} 
                 githubLink={"https://github.com/deepanshu2711/Mern-Blog-Beginner-Friendly"}
-                liveLink={""}
                 />
 
                 <ProjectCard
@@ -42,9 +40,15 @@ const ProjectSection = () => {
                 title={"Gleam Google Clone"}
                 description={"A Google clone which based on next.js which uses google developers tool search engine to fetch data and return text and Images based on user search "} 
                 githubLink={"https://github.com/deepanshu2711/gleam-google-clone"}
-                liveLink={"https://gleam-google-clone.vercel.app/"}
-
                 />
+
+                <ProjectCard
+                imgUrl={"/Imdb.png"}
+                title={"ImDb Clone"}
+                description={"An ImDb clone app using next.js and tailwind css for styling which uses Imdb api to fetch data"} 
+                githubLink={"https://github.com/deepanshu2711/imdb-next"}
+                />
+                
             </div>
         </div>
      );
