@@ -12,10 +12,9 @@ const HeaderSeaction = () => {
     };
 
     const handleResumeDownload = () => {
-        const fileurl = "./resume.pdf";
         const link = document.createElement("a");
-        link.href = fileurl;
-        link.download = "resume.pdf";
+        link.href = "./Resume.pdf";
+        link.download = "Deepanshu's Resume.pdf"
         link.click();
     }
 
